@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+header h1,
+footer h2 {
+  font-weight: normal;
+}
+
+header h1,
+article p,
+footer h2 {
+  font-size: 21px;
+}
+
+header span,
+footer span {
+  color: grey;
+}
+
+footer {
+  justify-content: flex-end;
+}
+
+

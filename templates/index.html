@@ -1,0 +1,26 @@
+{% extends "base.html" %} 
+{% block body %}  
+  <main>
+      <header>
+        <h1>
+          Thiago Campos <span>— escritor, curioso <br> e mais um pouco</span>
+        </h1>
+      </header>
+      <img
+        src="/images/driver.webp" 
+        alt="Pessoa (eu) dirigindo um carro da Volkswagen, no fundo, uma paisagem serrana." 
+        width="896" 
+        height="422"
+        loading="lazy"
+      />
+      <article>
+      {{ section.content | safe }}
+      </article>
+
+      <footer>
+        <h2>
+          <span>escrito com amor no</span> algarve, portugal.
+        </h2>
+      </footer>
+    </main>
+{% endblock %}

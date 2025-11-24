@@ -1,0 +1,30 @@
+:root {
+  --body-default: #FFF;
+  --accent-default: hsl(229, 100%, 39%);
+  --background-default: #151515;
+}
+
+html, body  {
+  color: var(--body-default);
+  background: var(--background-default);
+}
+
+a,
+a:hover,
+a:visited {
+  color: var(--body-default);
+}
+
+i,
+b,
+em {
+  color: inherit;
+}
+
+main > h1 {
+  color: var(--accent-default);
+}
+
+header > a.logo {
+  color: var(--accent-default);
+}
