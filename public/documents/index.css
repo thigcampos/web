@@ -25,9 +25,3 @@ header span,
 footer span {
   color: grey;
 }
-
-footer {
-  justify-content: flex-end;
-}
-
-

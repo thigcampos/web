@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page.title or section.title }}</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="Escritor de códigos e poesias, eventualmente alguns artigos e crônicas. Amante do desenho industrial e fotógrafo de momentos importantes do meu cotidiano. Grande apreciador de boas comidas, livros e histórias." />
     <meta name="author" content="Thiago Campos" />
     <meta name="robots" content="index, follow" />
@@ -22,10 +22,18 @@
     <link rel="stylesheet" href="/foundations/typography.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="/foundations/colors.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="/foundations/layout.css" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/pages/index.css" crossorigin="anonymous" />
+    {% block head %}{% endblock %}
   </head>
 
   <body>
-    {% block body %}{% endblock %}
+    {% block body %}
+    <main>
+      {% block main %}{% endblock %}
+      <footer>
+        <p>2025 · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+        <p>Desenvolvido com <a href="https://codeberg.org/hipermidia/hipertexto">Hipertexto</a></p>
+      </footer>
+    </main>
+    {% endblock %}
   </body>
 </html>
