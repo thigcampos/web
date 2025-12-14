@@ -2,11 +2,6 @@
 {% block head %}
   <link rel="stylesheet" href="/documents/index.css" crossorigin="anonymous" />
 {% endblock %}
-{% block main %}  
-      <header>
-        <h1>Thiago Campos</h1>
-      </header>
-      <article>
-      {{ page.content | safe }}
-      </article>
+{% block main %}
+  <article>{{ page.content | safe }}</article>
 {% endblock %}

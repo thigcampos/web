@@ -2,12 +2,15 @@
 title = "Thiago Campos"
 template = "index.html"
 +++
-Escrevo códigos como quem compõe versos — com ritmo, intenção e um toque de caos necessário. 
-Às vezes, as palavras me escapam em forma de poesia, crônica, artigo ou ideia solta que encontra pouso no papel. 
-Sou um criativo de margens difusas: apaixonado por desenho industrial, fotógrafo dos instantes que merecem ser eternizados em filme, atento observador da beleza que se esconde no banal.
+Olá!
 
-Entre uma linha e outra, saboreio histórias bem contadas, pratos bem feitos e livros que me fazem perder a hora e reencontrar a mim mesmo. 
-Vivo entre palavras e formas, buscando o ponto exato onde razão e sensibilidade se encontram.
+Meu nome é Thiago Campos e este é o meu sítio na web, cartão de visitas na 
+internet. Puxe uma cadeira e sinta-se à vontade.
 
-No fim, sou isso: um eterno aprendiz — <a href="https://codeberg.org/thigcampos" target="_blank">programador</a>, <a rel="me" href="https://mastodon.social/@thgcmps" target="_blank">escritor</a>, cozinheiro, <a href="https://instagram.com/thigcampos" target="_blank">fotógrafo</a>, e acima de tudo, curioso. 
-Moldando o mundo com o que tenho à mão.
+Por aqui, mantenho alguns [registros em texto](/blog) sobre diferentes tópicos
+de meu interesse, incluindo uma [curadoria](/curated) de tudo o que me agrada,
+tanto material quanto digital. Neste sítio também estão atalhos para a minha 
+[galeria de fotos](https://instagram.com/thigcampos.com) e o meu 
+[repositório de projetos](https://github.com/thigcampos) pessoais.
+
+No âmbito profissional, escrevo códigos na [NaN Systems](https://nan.systems).
