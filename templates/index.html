@@ -1,6 +1,7 @@
 {% extends "base.html" %} 
 {% block head %}
-  <link rel="stylesheet" href="/documents/index.css" crossorigin="anonymous" />
+  <link rel="preload" href="/documents/index.css" as="style">
+  <link rel="stylesheet" href="/documents/index.css">
 {% endblock %}
 {% block main %}
   <article>{{ page.content | safe }}</article>
