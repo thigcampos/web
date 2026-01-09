@@ -1,6 +1,6 @@
 +++
 title = "Forma segue a função"
-template = "index.html"
+template = "article.html"
 +++
 
 O meu sítio _web_ já teve muitos estilos diferentes desde que comprei o domínio em dezembro

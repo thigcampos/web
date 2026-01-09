@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
 
-  <title>{{ page.title }}</title>
 
-  <meta name="description" content="Escritor de códigos e poesias, eventualmente alguns artigos e crônicas. Amante do desenho industrial e fotógrafo de momentos importantes do meu cotidiano. Grande apreciador de boas comidas, livros e histórias.">
+  <title>{% if page is defined %}{{ page.title }}{% else %}{{ section.title }}{% endif %}</title>
+
+  <meta name="description" content="Escritor de códigos, eventualmente alguns artigos e crônicas. Amante do desenho industrial e fotógrafo de momentos importantes do meu cotidiano. Grande apreciador de boas comidas, livros e histórias.">
   <meta name="author" content="Thiago Campos">
   <meta name="robots" content="index, follow">
 

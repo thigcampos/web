@@ -5,14 +5,14 @@
 {% endblock %}
 {% block main %}  
       <section>
-          {% for log in page.pages %}
+          {% for page in section.pages %}
               <article>
                 <header>
-                  <h2><a href="{{ log.url }}">{{ log.title }}</a></h2>
+                  <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
                 </header>
-                {{ log.content | safe }}
+                {{ page.content | safe }}
                 <footer>
-                  <p><a href="{{ log.url }}">{{ log.date }}</a></p>
+                  <p><a href="{{ page.url }}">{{ page.date }}</a></p>
                 </footer>
               </article>
           {% endfor %}
