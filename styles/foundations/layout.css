@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  padding: 3rem;
+  max-width: 56rem;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section ol {
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 48rem) {
+  body {
+    padding: 1rem;
+  }
+
+  footer {
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
