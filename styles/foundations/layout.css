@@ -37,7 +37,7 @@ section ol {
 
   footer {
     gap: 1rem;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: flex-start;
   }
 }
