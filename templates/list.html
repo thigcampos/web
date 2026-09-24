@@ -1,0 +1,20 @@
+{% extends "base.html" %} 
+{% block head %}
+  <link rel="preload" href="/documents/list.css" as="style">
+  <link rel="stylesheet" href="/documents/list.css">
+{% endblock %}
+{% block main %}  
+      <section>
+          {% for page in section.pages %}
+              <article>
+                <header>
+                  <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+                </header>
+                {{ page.content | safe }}
+                <footer>
+                  <p><a href="{{ page.url }}">{{ page.date }}</a></p>
+                </footer>
+              </article>
+          {% endfor %}
+      </section>
+{% endblock %}
