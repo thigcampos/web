@@ -10,7 +10,7 @@ setup:
 	@echo "Setting things up..."
 	@git fetch origin $(PAGES_BRANCH)
 	@git worktree add $(PAGES_PATH) $(PAGES_BRANCH)
-	@git -C $(PAGES_PATH) pull --ff-only
+	@git -C $(PAGES_PATH) pull origin --ff-only
 	@echo "Done! Pages worktree available at $(PAGES_PATH)"
 
 clean:
