@@ -1,0 +1,11 @@
+:root { 
+  --font-serif: "Times New Roman", serif;  
+} 
+ 
+body { 
+  font-size: clamp(1rem, 0.911rem + 0.238vw, 1.125rem); 
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  font-family: var(--font-serif); 
+  text-rendering: optimizeLegibility; 
+}
