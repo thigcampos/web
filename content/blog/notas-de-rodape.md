@@ -9,7 +9,7 @@ As notas aparecem nos _logs_ e podem ser [compartilhadas com outros colaboradore
 
 A exceção que encontrei foi o Forgejo, o _software_ por trás do Codeberg, que não apenas exibe as notas como permite modificá-las e apagá-las. Ponto para o _software_ livre.
 
-Quanto às minhas, têm sido um depósito de comentários irreverentes e de curiosidades pouco informativas, um prato cheio para curiosos como eu. A obrigação formal de descrever e justificar cada mudança fica com a mensagem de _commit_. As notas são para o resto.
+Quanto às minhas, têm sido um depósito de comentários irreverentes e de curiosidades pouco informativas, um prato cheio para curiosos. A obrigação formal de descrever e justificar cada mudança deixo para a mensagem de _commit_. As notas são para o resto.
 
 [_git-notes_]: https://git-scm.com/docs/git-notes.html
 [objeto _git_]: https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
