@@ -1,6 +1,7 @@
 +++
 title = "Notas de rodapé"
 template = "article.html"
+date = 2026-09-24
 +++
 Há poucas semanas, esbarrei n'um comando _git_ que nunca tinha visto: o [_git-notes_]. Ele funciona como um _post-it_, permitindo "grudar" anotações em qualquer [objeto _git_] sem alterá-lo. Achei útil.
 
