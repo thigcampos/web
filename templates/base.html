@@ -25,6 +25,13 @@
 </head>
 <body>
   {% block body %}
+  <header>
+    <h3>{% block title %}Thiago Campos{% endblock %}</h3>
+    <p>
+      <a href="/">Início</a> /
+      <a href="/blog">Blogue</a>
+    </p>
+  </header>
   <main>
     {% block main %}{% endblock %}
   </main>
