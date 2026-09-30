@@ -3,18 +3,16 @@
   <link rel="preload" href="/documents/list.css" as="style">
   <link rel="stylesheet" href="/documents/list.css">
 {% endblock %}
+{% block title %}Registros{% endblock %}
 {% block main %}  
       <section>
+          <ol>
           {% for page in section.pages %}
-              <article>
-                <header>
-                  <h2><a href="{{ page.url }}.html">{{ page.title }}</a></h2>
-                </header>
-                {{ page.content | safe }}
-                <footer>
-                  <em>{{ page.date }}</em>
-                </footer>
-              </article>
+              <li>
+                <span>{{ page.date }}</span> —
+                <a href="{{ page.url }}.html">{{ page.title }}</a>
+              </li>
           {% endfor %}
+          </ol>
       </section>
 {% endblock %}
